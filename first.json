@@ -1,5 +1,5 @@
 rebase develop to test!
 
-先从远端拉取test最新代码！
+是要先从远端拉取test最新代码！
 git checkout test
 git pull
