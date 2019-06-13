@@ -1,7 +1,9 @@
-rebase develop to test!
+rebase feature/xxx to develop!
 
 修改配置！！！
 ？
-是要先从远端拉取test最新代码！
-git checkout test
+是要先从远端拉取develop最新代码！
+I add new line at this.
+
+git checkout develop
 git pull
