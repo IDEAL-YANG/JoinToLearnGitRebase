@@ -1,5 +1,7 @@
 rebase develop to test!
 
+修改配置！！！
+？
 是要先从远端拉取test最新代码！
 git checkout test
 git pull
