@@ -1,11 +1,7 @@
 rebase feature/xxx to develop!
 
 修改配置！！！
-？
-是要先从远端拉取develop最新代码！
-
-I add new line at this.
-
+是要先从远端拉取develop最新代码。
 git checkout develop
 git pull
 
