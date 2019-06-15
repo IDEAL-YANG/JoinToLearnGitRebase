@@ -8,3 +8,15 @@ I add new line at this.
 
 git checkout develop
 git pull
+
+回到feature/xxx分支，进行rebase操作
+git checkout feature/xxx
+git rebase develop
+
+然后系统会把feature/xxx上的所有提交一个一个的应用到develop上，如果某一个提交遭遇冲突，则会提醒你手动合并。编辑后，暂存或者删除表示解决冲突，然后继续。
+git add/rm ...
+git rebase --continue
+
+然后你就会发现feature/xxx分支自动的跑到了develop之后，然后切回develop分支，执行merge操作，merge feature/xxx分支。
+git checkout develop
+git merge feature/xxx
