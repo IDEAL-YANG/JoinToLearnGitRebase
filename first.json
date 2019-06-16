@@ -16,3 +16,7 @@ git rebase --continue
 然后你就会发现feature/xxx分支自动的跑到了develop之后，然后切回develop分支，执行merge操作，merge feature/xxx分支。
 git checkout develop
 git merge feature/xxx
+
+add test env config
+ip:192.168.112.1
+prot:8080
