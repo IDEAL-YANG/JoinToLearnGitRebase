@@ -19,4 +19,8 @@ git merge feature/xxx
 
 add test env config
 ip:192.168.112.1
-prot:8080
+port:8080
+
+add online env config
+ip:110.110.110.1
+port:8090
